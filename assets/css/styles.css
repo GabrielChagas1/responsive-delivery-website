@@ -96,7 +96,7 @@ img {
 /*========== Button Dark/Light ==========*/
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
-  padding: 4.5rem o 1rem;
+  padding: 4.5rem 0 1rem;
 }
 
 .section__title, .section__title-center {
@@ -243,9 +243,58 @@ img {
   display: none;
 }
 
+.button-link {
+  background: none;
+  padding: 0;
+  color: var(--title-color);
+}
+
+.button-link:hover {
+  background-color: transparent;
+}
+
 /*=============== ABOUT ===============*/
+.about__container {
+  gap: 2.5rem;
+}
+
+.about__data {
+  text-align: center;
+}
+
 /*=============== SECURITY ===============*/
+.security__container {
+  gap: 2.5rem;
+}
+
+.security__description {
+  text-align: center;
+}
+
 /*=============== SERVICES ===============*/
+.services__container {
+  padding-top: 1rem;
+}
+
+.services__data {
+  display: -ms-grid;
+  display: grid;
+  row-gap: 1rem;
+  background-color: var(--container-color);
+  -webkit-box-shadow: 0 2px 6px hsla(var(--hue), 100%, 15%, 0.15);
+          box-shadow: 0 2px 6px hsla(var(--hue), 100%, 15%, 0.15);
+  padding: 2rem 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.services__img {
+  width: 135px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  margin-bottom: var(--mb-0-5);
+}
+
 /*=============== APP ===============*/
 /*=============== CONTACT ===============*/
 /*=============== FOOTER ===============*/
