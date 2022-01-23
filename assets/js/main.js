@@ -89,8 +89,30 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
+/*==================== SCROLL REVEAL ANIMATION ====================*/
+const sr = ScrollReveal({
+    distance: '60px',
+    duration: 2500,
+    delay: 400
+    // reset: true,
+})
 
-/*=============== SHOW SCROLL UP ===============*/
 
+sr.reveal(`.home__container,
+           .services__container,
+           .section__title`,{
+    origin: 'top',
+    interval: 100,
+})
 
-/*=============== DARK LIGHT THEME ===============*/
+sr.reveal(`.about__container,
+           .app__container`,{
+    origin: 'left',
+    interval: 100,
+})
+
+sr.reveal(`.security__container,
+           .contact__container`,{
+    origin: 'right',
+    interval: 100,
+})
