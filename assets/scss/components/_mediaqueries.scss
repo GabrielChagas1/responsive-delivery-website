@@ -138,3 +138,25 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home{
+      &__img{
+        width: 540px;
+      }
+      &__description{
+        padding-right: 5rem;
+      }
+  }
+
+  .footer__container{
+    column-gap: 3rem;
+  }
+
+  .scrollup{
+    right: 2rem;
+  }
+}
