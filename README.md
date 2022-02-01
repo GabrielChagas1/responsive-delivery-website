@@ -1,6 +1,6 @@
 <div align="center">
     <h1 align="center">Create Responsive Delivery Website Design Using HTML Sass & JavaScript 🚚</h1>
-    <p>Criação de um site com tema sobre Plantas para treino e fixação de conteúdo.</p>
+    <p>Criação de um site com tema sobre entregas para treino e fixação de conteúdo.</p>
     <img src="./design/preview.png" alt="Logo" width="800">
 </div>
 
